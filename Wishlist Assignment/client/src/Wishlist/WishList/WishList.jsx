@@ -424,26 +424,8 @@ export default function WishlistPage() {
         Add to Collection
       </Button>
      
-                  <Button
-                    variant="contained"
-                    sx={{
-                      bgcolor: "#FF8B3E",
-                      "&:hover": { bgcolor: "#e67e38" },
-                    }}
-                    onClick={() => handleRemoveProduct(selectedCollection.id, item.id)}
-                  >
-                    Remove from Wishlist
-                  </Button>
-                  <Button
-                    variant="contained"
-                    sx={{
-                      bgcolor: "#FF8B3E",
-                      "&:hover": { bgcolor: "#e67e38" },
-                    }}
-                    onClick={() => handleMoveProduct(selectedCollection.id, 1, item.id)}
-                  >
-                    Move to Another Wishlist
-                  </Button>
+                
+               
                 </CardContent>
               </Card>
             </Grid>
